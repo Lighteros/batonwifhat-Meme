@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>batonwifhat | $batonwif on Solana</title>
+    <meta
+      name="description"
+      content="batonwifhat is the Pumpfun mascot: a cozy Shiba with a baton, a knit hat, and endless meme energy on Solana."
+    />
+    <meta property="og:title" content="batonwifhat | $batonwif" />
+    <meta
+      property="og:description"
+      content="A cozy Shiba with a baton, a knit hat, and endless meme energy."
+    />
+    <meta property="og:image" content="logo.png" />
+    <meta name="theme-color" content="#FBF6EE" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <div class="studio" aria-hidden="true">
+      <div class="studio-wash"></div>
+      <div class="studio-mesh"></div>
+      <div class="studio-knit"></div>
+      <div class="studio-grain"></div>
+      <div class="orb orb-blush"></div>
+      <div class="orb orb-mint"></div>
+      <div class="orb orb-cream"></div>
+      <div class="spotlight" id="spotlight"></div>
+    </div>
+    <div class="motes" id="motes" aria-hidden="true"></div>
+
+    <div class="baton-rail" aria-hidden="true">
+      <span class="baton-grip"></span>
+      <span class="baton-shaft"></span>
+    </div>
+
+    <header class="scarf" id="scarf">
+      <a class="scarf-brand" href="#hero">
+        <img src="logo.png" alt="batonwifhat logo" />
+        <span>
+          <strong>batonwifhat</strong>
+          <small>$batonwif</small>
+        </span>
+      </a>
+      <button class="scarf-toggle" id="menu-btn" type="button" aria-expanded="false" aria-controls="scarf-nav">
+        <i></i><i></i><i></i>
+      </button>
+      <nav class="scarf-nav" id="scarf-nav">
+        <a href="#about">About</a>
+        <a href="#howtobuy">How to Buy</a>
+        <a href="#chart">Chart</a>
+        <a href="#joinus">Join Us</a>
+        <a class="scarf-buy" id="buy-nav" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/pumpswap.svg" alt="" />
+          Buy
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-grid">
+          <div class="portrait rise">
+            <div class="portrait-glow"></div>
+            <div class="portrait-mat">
+              <img class="portrait-dog" src="logo.png" alt="Cozy Shiba holding a baton in a knit hat" />
+            </div>
+            <div class="portrait-tag">
+              <img src="assets/icons/solana.svg" alt="" />
+              <span>Solana memecoin</span>
+            </div>
+          </div>
+
+          <div class="hero-copy rise delay-1">
+            <p class="eyebrow">Pumpfun mascot</p>
+            <h1>
+              <span class="title-knit">batonwifhat</span>
+              <span class="title-sub">the cozy baton parade</span>
+            </h1>
+            <p class="lede">
+              A cozy Shiba with a baton, a knit hat, and endless meme energy.
+              Soft yarn, loud memes, and a green baton leading the Solana pack.
+            </p>
+            <div class="ticker-row">
+              <span class="chip">Name batonwifhat</span>
+              <span class="chip chip-mint">Symbol batonwif</span>
+            </div>
+            <div class="ca-strip" id="ca-strip">
+              <span class="ca-label">CA</span>
+              <code id="ca-value">TBA</code>
+              <button type="button" id="ca-copy">Copy</button>
+            </div>
+            <div class="hero-actions">
+              <a class="btn btn-mint" id="buy-hero" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/pumpswap.svg" alt="" />
+                Buy on PumpSwap
+              </a>
+              <a class="btn btn-ink" href="https://x.com/batonwifhatsol" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/x.svg" alt="" />
+                Follow on X
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="section-head rise">
+          <p class="eyebrow">About</p>
+          <h2>Knit hat. Green baton. Zero chill, all cozy.</h2>
+        </div>
+        <div class="about-layout">
+          <article class="about-story rise">
+            <p>
+              batonwifhat is the Pumpfun mascot: a warm-furred Shiba who never
+              leaves the house without a hand-knit beanie and a bright parade baton.
+              The look is cream yarn, blush stitching, and that unmistakable mint
+              handle. The vibe is soft studio lighting with full send energy.
+            </p>
+            <p>
+              This is a Solana memecoin built for the feed, the trenches, and
+              anyone who wants a mascot that actually looks like it belongs on
+              a knitted sweater. Hold the baton. Wear the hat. Join the parade.
+            </p>
+          </article>
+          <aside class="about-cards">
+            <div class="fact rise delay-1">
+              <span>01</span>
+              <h3>Mascot first</h3>
+              <p>A cozy Shiba with a baton and a knit hat, drawn from the official logo studio.</p>
+            </div>
+            <div class="fact rise delay-2">
+              <span>02</span>
+              <h3>Solana native</h3>
+              <p>Fast lanes, PumpSwap routes, and a Dexscreener chart that stays on-chain.</p>
+            </div>
+            <div class="fact rise delay-3">
+              <span>03</span>
+              <h3>Endless meme energy</h3>
+              <p>Soft colors, loud culture. The hat stays on. The baton stays raised.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="howto" id="howtobuy">
+        <div class="section-head rise">
+          <p class="eyebrow">How to Buy</p>
+          <h2>Four stations along the yarn trail</h2>
+        </div>
+        <div class="trail" aria-hidden="true">
+          <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
+            <path d="M20 40 C 180 10, 360 70, 540 40 S 900 10, 1180 40" />
+          </svg>
+        </div>
+        <ol class="stations">
+          <li class="station rise">
+            <div class="station-icon">
+              <img src="assets/icons/phantom.svg" alt="Phantom" />
+            </div>
+            <h3>Get a wallet</h3>
+            <p>Install Phantom or any Solana wallet and keep a little SOL for the route.</p>
+          </li>
+          <li class="station rise delay-1">
+            <div class="station-icon">
+              <img src="assets/icons/solana.svg" alt="Solana" />
+            </div>
+            <h3>Fund with SOL</h3>
+            <p>Send SOL to your wallet. That is the fuel for the cozy baton swap.</p>
+          </li>
+          <li class="station rise delay-2">
+            <div class="station-icon">
+              <img src="assets/icons/pumpswap.svg" alt="PumpSwap" />
+            </div>
+            <h3>Open PumpSwap</h3>
+            <p>Paste the contract, pick your size, and swap SOL into $batonwif.</p>
+          </li>
+          <li class="station rise delay-3">
+            <div class="station-icon">
+              <img src="assets/icons/pumpfun.svg" alt="Pump.fun" />
+            </div>
+            <h3>Hold the hat</h3>
+            <p>Confirm the transaction, keep the mascot close, and watch the parade.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="chart" id="chart">
+        <div class="section-head rise">
+          <p class="eyebrow">Chart</p>
+          <h2>Live Dexscreener on Solana</h2>
+        </div>
+        <div class="chart-frame rise">
+          <iframe
+            id="dex-embed"
+            title="Dexscreener Solana chart"
+            src="https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"
+            allow="clipboard-write"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="join" id="joinus">
+        <div class="section-head rise">
+          <p class="eyebrow">Join Us</p>
+          <h2>Step into the knit parade</h2>
+        </div>
+        <figure class="billboard rise">
+          <img src="banner.png" alt="batonwifhat knitted wordmark with the Shiba mascot" />
+        </figure>
+        <div class="join-links">
+          <a class="join-card rise" href="https://x.com/batonwifhatsol" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/x.svg" alt="" />
+            <span>X</span>
+            <small>@batonwifhatsol</small>
+          </a>
+          <a class="join-card rise delay-1" id="join-pump" href="https://pump.fun" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/pumpfun.svg" alt="" />
+            <span>Pump.fun</span>
+            <small>Official board</small>
+          </a>
+          <a class="join-card rise delay-2" id="join-swap" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/pumpswap.svg" alt="" />
+            <span>PumpSwap</span>
+            <small>Buy $batonwif</small>
+          </a>
+          <a class="join-card rise delay-3" id="join-dex" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/dexscreener.svg" alt="" />
+            <span>Dexscreener</span>
+            <small>Solana chart</small>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img src="logo.png" alt="" />
+      <p>batonwifhat / $batonwif / Solana</p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="js/site.js"></script>
+  </body>
+</html>
